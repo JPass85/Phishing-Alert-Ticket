@@ -1,5 +1,11 @@
 # Phishing-Alert-Ticket
 
+## Ticket Entry Chart
+
+| Ticket ID    | Alert Message | Severity | Details | Ticket Status |
+|--------------|-----------------|-------------|-------------|---------------|
+| A-2703       | SERVER-MAIL Phishing attempt possible download of malware | Medium | The user may have opened a malicious email and opened attachments or clicked links. | Escalated |
+
 ## Ticket Comments
 The alert revealed that an employee downloaded and opened and malicious file from a phishing email. An inconsistency was observed between the send’s email address “76tguy6hh6tgftrt7tg.su”, the name used in the email body “Clyde West”, and the sender’s name “Def Communications”. Additionally, grammatical errors were present in the email body and subject line. Furthermore, the email’s body contained a password-protected attachment, “bfsvc.exe”, which was downloaded and opened on the affected machine. Previous investigation of the file hash confirmed it to be a known malicious file. The alert severity was reported as medium. Based on these findings, I decided to escalate this ticket to a level-two SOC analyst for further action. 
 
